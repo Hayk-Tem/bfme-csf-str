@@ -1,0 +1,20 @@
+{
+  "name": "bfme-csf-str",
+  "version": "1.0.0",
+  "description": "Convert bfme csf files to str",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "tsc"
+  },
+  "keywords": [
+    "bfme",
+    "csf",
+    "str"
+  ],
+  "author": "Hayk",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.4"
+  }
+}
