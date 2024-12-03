@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "module": "commonjs", // Use CommonJS module output
+    "outDir": "./dist/cjs" // Specify a separate folder for CommonJS output
+  }
+}

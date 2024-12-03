@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "removeComments": true,
+    "target": "ES2022",
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "lib/**/*",
+    "index.ts",
+    "src/utils/buffer.ts",
+    "src/csf.ts",
+    "src/csfHeader.ts",
+    "src/csfLabel.ts",
+    "src/csfLanguage.ts",
+    "src/csfString.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

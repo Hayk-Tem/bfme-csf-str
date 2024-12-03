@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext", // Use ES module output
+    "outDir": "./dist/esm" // Specify a separate folder for ES module output
+  }
+}

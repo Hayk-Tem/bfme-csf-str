@@ -1,0 +1,31 @@
+{
+  "name": "bfme-csf-str",
+  "version": "1.0.0",
+  "description": "Convert bfme csf files to str",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js"
+  },
+  "scripts": {
+    "build:esm": "tsc --project tsconfig.esm.json",
+    "build:cjs": "tsc --project tsconfig.cjs.json",
+    "build": "npm run build:esm && npm run build:cjs"
+  },
+  "files": [
+    "package.json",
+    "dist/"
+  ],
+  "keywords": [
+    "bfme",
+    "csf",
+    "str"
+  ],
+  "author": "Hayk",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.4"
+  }
+}
