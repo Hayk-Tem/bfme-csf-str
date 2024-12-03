@@ -25,6 +25,9 @@
   ],
   "author": "Hayk",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/Hayk-Tem/bfme-csf-str"
+  },
   "devDependencies": {
     "@types/node": "^22.5.4"
   }
